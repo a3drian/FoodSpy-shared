@@ -1,4 +1,4 @@
-export declare const env: Readonly<{
-    REGISTER_ROUTE: string;
-    LOGIN_ROUTE: string;
-}>;
+export declare enum env {
+    REGISTER_ROUTE = "/auth/register",
+    LOGIN_ROUTE = "/auth/login"
+}

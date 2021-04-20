@@ -1,8 +1,8 @@
-export declare const STATUS_CODES: Readonly<{
-    OK: number;
-    CREATED: number;
-    UNAUTHORIZED: number;
-    NOT_FOUND: number;
-    CONFLICT: number;
-    SERVER_ERROR: number;
-}>;
+export declare enum STATUS_CODES {
+    OK = 200,
+    CREATED = 201,
+    UNAUTHORIZED = 401,
+    NOT_FOUND = 404,
+    CONFLICT = 409,
+    SERVER_ERROR = 500
+}
