@@ -2,7 +2,9 @@
     "name": "foodspy-shared",
     "version": "1.0.10",
     "description": "Shared enums and interfaces between FoodSpy and its API.",
-	"main": "index.js",
+    "main": "./lib/index.js",
+    "module": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/a3drian/FoodSpy-shared.git"
@@ -13,5 +15,15 @@
     "bugs": {
         "url": "https://github.com/a3drian/FoodSpy-shared/issues"
     },
-    "homepage": "https://github.com/a3drian/FoodSpy-shared#readme"
+    "homepage": "https://github.com/a3drian/FoodSpy-shared#readme",
+    "scripts": {
+        "prepublish": "npm run tsc",
+        "tsc": "tsc -p tsconfig.json"
+    },
+    "files": [
+        "lib/"
+    ],
+    "devDependencies": {
+        "typescript": "^4.2.4"
+    }
 }
