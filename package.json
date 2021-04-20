@@ -1,0 +1,17 @@
+{
+    "name": "foodspy-shared",
+    "version": "1.0.10",
+    "description": "Shared enums and interfaces between FoodSpy and its API.",
+	"main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/a3drian/FoodSpy-shared.git"
+    },
+    "keywords": [],
+    "author": "a3drian",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/a3drian/FoodSpy-shared/issues"
+    },
+    "homepage": "https://github.com/a3drian/FoodSpy-shared#readme"
+}
