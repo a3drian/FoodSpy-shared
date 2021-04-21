@@ -1,20 +1,15 @@
 // Authentication:
-import { IAuthResponseData } from './auth/IAuthResponseData';
-import { IUser } from './auth/IUser';
+import { IAuthResponseData, IUser } from './auth/index';
 // Database:
-import { IFood } from './db/IFood';
-import { IIntake } from './db/IIntake';
-import { IMeal } from './db/IMeal';
-import { IUnit } from './db/IUnit';
+import { IFood, IIntake, IMeal, IUnit } from './db/index';
 // Error codes:
-import { ERROR_CODES } from './common/error-codes';
-import { STATUS_CODES } from './common/status-codes';
+import { ERROR_MESSAGES, STATUS_CODES } from './common/index';
 // Environment:
-import { env } from './env/environment';
+import { environment } from './env/environment';
 
 export {
    IAuthResponseData, IUser,
    IFood, IIntake, IMeal, IUnit,
-   ERROR_CODES, STATUS_CODES,
-   env
+   ERROR_MESSAGES, STATUS_CODES,
+   environment
 };

@@ -1,4 +1,4 @@
-export enum env {
-   REGISTER_ROUTE = '/auth/register',
-   LOGIN_ROUTE = '/auth/login'
+export enum environment {
+   REGISTER_URL = '/auth/register',
+   LOGIN_URL = '/auth/login'
 };
