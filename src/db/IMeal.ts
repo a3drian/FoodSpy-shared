@@ -1,7 +1,9 @@
 import { IFood } from './IFood';
 
 export interface IMeal {
+   id: string;
    type: string;
-   foods: IFood[];
    createdAt?: Date;
+   foodIDs: string[];
+   foods: IFood[];
 }
