@@ -7,5 +7,6 @@ export interface IFood {
 	saturates: number;
 	carbohydrates: number;
 	sugars: number;
+	proteins: number;
 	salt: number;
 }
