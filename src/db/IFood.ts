@@ -2,6 +2,7 @@
 export interface IFood {
 	id: string;
 	name: string;
+	displayName: string;
 	energy: number;
 	fats: number;
 	saturates: number;
