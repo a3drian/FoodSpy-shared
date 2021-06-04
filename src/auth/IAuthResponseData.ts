@@ -1,7 +1,7 @@
 export interface IAuthResponseData {
     email: string;
     id: string;
-    targetCalories: string;
+    targetCalories: number;
     token: string;
     expiresIn: number;
 }

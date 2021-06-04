@@ -1,6 +1,6 @@
 {
     "name": "foodspy-shared",
-    "version": "1.2.3",
+    "version": "1.2.5",
     "description": "Shared enums and interfaces between FoodSpy and its API.",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
